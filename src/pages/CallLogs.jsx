@@ -16,7 +16,7 @@ const CallLogs = () => {
         </div>
       </div>
       </div>
-      <div className="w-6-12  ">
+      <div className="w-6-12 mx-auto ">
         <div className="flex gap-20  ">
         <div className="">
           <select className="text-white text-sm font-inter bg-[#0b1437]  px-10 py-3  rounded-lg  border border-white/20 focus:outline-none  focus:ring-1 focus:ring-white/30">
