@@ -7,6 +7,12 @@ import { LuArrowRightLeft } from 'react-icons/lu'
 import { RiRobot2Line } from 'react-icons/ri'
 import { TiDeleteOutline } from 'react-icons/ti'
 
+const skills = [
+  { name: "Screen Repair", percent: 70 ,  extra: "156 requests"},
+  { name: "Battery Replacement", percent: 70, extra: "89 requests" },
+  { name: "Back Glass Repair", percent: 50, extra: "67 requests" },
+  { name: "Software Issues", percent: 30, extra: "45 requests" },
+]
 const Deshboard = () => (
   <section className=''>
     <div className="flex gap-5">
@@ -175,7 +181,7 @@ const Deshboard = () => (
 
     </div>
 
-    <div className="flex pt-10">
+    <div className="flex pt-10 gap-5">
       <div className="w-6/12 border p-3 rounded-2xl border-[#2b80ffab] ">
         <h3 className='font-inter text-[20px] text-[#FFFFFF]'>Recent Activity</h3>
 
@@ -216,7 +222,28 @@ const Deshboard = () => (
           </div>
         </div>
       </div>
-      <div className="w-6/12"></div>
+      <div className="w-6/12 border p-3 rounded-2xl border-[#2b80ffab]">
+      <div className="w-full border-[#2b80ffab]  p-5 rounded-lg space-y-6">
+        <h3 className='text-[20px] font-inter text-[#FFFFFF]'>Top Repair Requests</h3>
+      {skills.map((skill, index) => (
+        <div key={index} className="space-y-1">
+          <div className="flex justify-between">
+            <span className="block text-sm font-semibold text-white"> {skill.name}</span>
+          <p className='text-[#C0CCDD]'> {skill.extra}</p>
+          </div>
+
+          <div className="w-full h-2 bg-black/10 rounded-full overflow-hidden">
+            <div className="relative h-full bg-[#4070f4] rounded-full animate-progress" style={{ width: `${skill.percent}%`, animationDelay: `${index * 0.1}s` }}>
+              <span className="absolute -top-7 -right-3 text-[9px] font-medium text-white bg-[#4070f4] px-1.5 py-0.5 rounded">
+                {skill.percent}%
+                <span className="absolute left-1/2 -bottom-1 w-2 h-2 bg-[#4070f4] rotate-45 -translate-x-1/2" />
+              </span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+      </div>
     </div>
 
   </section>
