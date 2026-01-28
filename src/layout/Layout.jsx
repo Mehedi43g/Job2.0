@@ -11,7 +11,7 @@ const Layout = () => {
       <div className="flex flex-col flex-1">
         <TopNavber />
 
-        <div className="flex-1 p-6 overflow-y-auto">
+        <div className="flex-1 p-6 overflow-y-auto pb-20 md:pb-6">
           <Outlet />
         </div>
       </div>
