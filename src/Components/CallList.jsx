@@ -8,8 +8,8 @@ const CallList = () => {
 
 
     return (
-        <div className="flex justify-between">
-            <div className="w-5/12">
+        <div className="flex flex-col gap-2   lg:flex lg:flex-row justify-between">
+            <div className="w-full lg:w-5/12">
                 <div className="  border border-[#2b80ffa8]  rounded-2xl">
                     <h3 className=' border-b border-[#2b80ffa8] text-[#FFFFFF] font-inter text-[20px] p-3'>Call List</h3>
                     <div className="py-2">
@@ -228,9 +228,10 @@ const CallList = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-6/12">
+
+            <div className="w-full lg:w-6/12">
                 <h3 className=' border-b border-[#2b80ffa8] text-[#FFFFFF] font-inter text-[20px] p-3'>Call Details</h3>
-                <div className="pt-5 flex gap-20">
+                <div className="pt-10 lg:pt-50 flex gap-20">
                     <div className="">
                         <p className='text-[#90A1B9] text-[14px] font-inter '>Phone Number</p>
                         <p className='text-[#FFFFFF] text-[16px] font-inter'>+1 (555) 123-4567</p>
@@ -261,7 +262,7 @@ const CallList = () => {
                     <p className='text-[#90A1B9] text-[14px] font-inter '>Outcome</p>
                     <p className='text-[#FFFFFF] text-[16px] font-inter'>Quote provided</p>
                 </div>
-                <div className="border border-[#AD46FF] cursor-pointer rounded-2xl bg-[#00c9502d] text-[#C27AFF] bg-linear-to-r from-[#ac46ff4f] to-[#f6339b81] flex justify-center">
+                <div className=" border border-[#AD46FF] cursor-pointer rounded-2xl bg-[#00c9502d] text-[#C27AFF] bg-linear-to-r from-[#ac46ff4f] to-[#f6339b81] flex justify-center">
                     <p className="px-3 py-3 font-inter text-sm flex items-center gap-3">
                         <FaPlay />Play Audio Recording
                     </p>
@@ -273,7 +274,7 @@ const CallList = () => {
                     </div>
                 </div>
                 <div className="pt-5">
-                    <div className="  p-3 rounded-2xl bg-[#1d293d62]">
+                    <div className=" p-2 md:p-3 rounded-2xl bg-[#1d293d62]">
                         <div className="">
                             <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
                             <p className='font-inter text-[#FFFFFF] text-[12px]'>Thank you for calling UBreakiFix! How can I help you today?</p>
