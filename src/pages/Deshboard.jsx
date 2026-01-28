@@ -1,8 +1,194 @@
 import React from 'react'
+import { CiCalendar } from 'react-icons/ci'
+import { IoMdTime } from 'react-icons/io'
+import { IoCall } from 'react-icons/io5'
+import { LuArrowRightLeft } from 'react-icons/lu'
+import { RiRobot2Line } from 'react-icons/ri'
+import { TiDeleteOutline } from 'react-icons/ti'
 
 const Deshboard = () => {
   return (
-    <div>Deshboard</div>
+    <section className=''>
+      <div className="flex gap-5">
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className="flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>Total Calls Today</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                127
+              </div>
+              <div className="text-[#05DF72] text-[14px] font-inter ">
+                +12%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#2B7FFF] to-[#00B8DB] text-[20px] ">
+                <IoCall className='text-[#FFFFFF]' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className="flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>AI-Handled Calls</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                98
+              </div>
+              <div className="text-[#05DF72] text-[14px] font-inter ">
+                +77%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#AD46FF] to-[#F6339A] text-[20px] ">
+                <RiRobot2Line className='text-[#FFFFFF]' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className=" flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>Warm Transfer</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                23
+              </div>
+              <div className="text-[#05DF72] text-[14px] font-inter ">
+                +18%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#FF6900] to-[#FB2C36] text-[20px] ">
+                <LuArrowRightLeft className='text-[#FFFFFF]' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="flex gap-5 pt-4.5">
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className="flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>Appointments Booked</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                34
+              </div>
+              <div className="text-[#05DF72] text-[14px] font-inter ">
+                +8%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#00C950] to-[#00BC7D] text-[20px] ">
+                <CiCalendar className='text-[#FFFFFF] ' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className="flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>Missed/Failed Calls</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                6
+              </div>
+              <div className="text-[#FD244A] text-[14px] font-inter ">
+                -3%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#FB2C36] to-[#FF2056] text-[20px] ">
+                <TiDeleteOutline className='text-[#FFFFFF]' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-4/12">
+          <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
+            <div className=" flex flex-col gap-3">
+              <p className='text-[#90A1B9] text-[14px] font-inter'>Avg Call Duration</p>
+              <div className="font-inter text-[27px] font-semibold text-[#FFFFFF]">
+                3:42
+              </div>
+              <div className="text-[#05DF72] text-[14px] font-inter ">
+                +15%
+              </div>
+            </div>
+            <div className=" ">
+              <div className="p-3 border rounded-2xl bg-linear-to-r from-[#615FFF] to-[#2B7FFF] text-[20px] ">
+                <IoMdTime className='text-[#FFFFFF]' />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div className=" pt-20">
+        <div className="w-full rounded-2xl bg-linear-to-br from-[#0b1437] to-[#0a1f44] p-6 border border-white/10">
+
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h3 className="text-white text-lg font-semibold">  Call Trends - This Week</h3>
+              <p className="text-white/60 text-sm">  Total: 472 calls </p>
+            </div>
+
+            <select className="text-white text-sm font-inter bg-[#0b1437]  px-4 py-1.5  rounded-lg  border border-white/20 focus:outline-none  focus:ring-1 focus:ring-white/30">
+              <option className='bg-[#0b1437] text-white' value="This Week ▾">This Week</option>
+              <option className='bg-[#0b1437] text-white' value="Sat">Sat</option>
+              <option className='bg-[#0b1437] text-white' value="Sun">Sun</option>
+              <option className='bg-[#0b1437] text-white' value="Mon">Mon</option>
+              <option className='bg-[#0b1437] text-white' value="Tue">Tue</option>
+              <option className='bg-[#0b1437] text-white' value="Thu">Thu</option>
+              <option className='bg-[#0b1437] text-white' value="Fri">Fri</option>
+            </select>
+          </div>
+
+          <div className="relative w-full h-56 rounded-xl overflow-hidden bg-linear-to-b from-white/5 to-transparent">
+
+            <div className="absolute inset-0 flex flex-col justify-between px-4 py-3">
+              {[...Array(5)].map((_, i) => (
+                <div
+                  key={i}
+                  className="w-full border-t border-dashed border-white/10"
+                />
+              ))}
+            </div>
+
+            <div className="absolute inset-0">
+              <div className="absolute bottom-0 left-0 w-full h-full bg-linear-to-t from-[#2B7FFF]/40 to-transparent rounded-xl clip-path-chart" />
+            </div>
+            <div className="absolute bottom-2 left-0 w-full flex justify-between px-4 text-xs text-white/70">
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+              <span>Sun</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="flex pt-10">
+        <div className="w-6/12 border p-3 rounded-2xl border-[#2b80ffab]">
+        <h3 className='font-inter text-[20px] text-[#FFFFFF]'>Recent Activity</h3>
+        <div className="">
+          <i>icons</i>
+          <p>AI booked appointment for iPhone 13 screen repair</p>
+          <p>2 min ago</p>
+        </div>
+        </div>
+        <div className="w-6/12"></div>
+      </div>
+
+    </section>
   )
 }
 

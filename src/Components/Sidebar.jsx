@@ -12,11 +12,27 @@ const Sidebar = () => {
       <h2 className="  w-12 h-12  flex items-center justify-center  rounded-lg  mb-8 mx-auto   bg-linear-to-r from-[#00FF88] to-[#00D4FF]  text-[#0b1437]  text-xl "> <FaBoltLightning /></h2>
       <div className="">
        <ul className='flex flex-col gap-5'>
-          <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer  transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border  hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)] " >
-            <FaHome className="text-[20px]" />  Dashboard Overview </li>
-        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer  transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border  hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)] "> <IoCallSharp className='text-[20px] '/>Call Logs</li>
-        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer  transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border  hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)] "><CiCalendar className='text-[20px] '/> Appointments</li>
-        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer  transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border  hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)] "><IoSettings className='text-[20px] '/> Settings</li>
+       <Link to='/'>
+        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer 
+         transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border
+           hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)]"><FaHome className="text-[20px]" />  Dashboard Overview </li>
+       </Link>
+       <Link to='calllogs'>
+       
+        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer
+          transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border 
+           hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)]"> <IoCallSharp className='text-[20px] '/>Call Logs</li>
+       </Link>
+       <Link to='appointments'>
+        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer 
+         transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border 
+          hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)]"><CiCalendar className='text-[20px] '/> Appointments</li>
+       </Link>
+        <Link to="settings">
+        <li className=" font-inter text-[16px] font-medium text-white flex items-center gap-3 p-2 rounded-lg cursor-pointer 
+         transition-all duration-300  hover:bg-linear-to-r hover:from-[rgba(255,255,255,0.18)]  hover:to-[rgba(255,255,255,0.08)] hover:border 
+          hover:border-[rgba(255,255,255,0.35)] hover:shadow-[0_0_25px_rgba(180,220,255,0.85)]"><IoSettings className='text-[20px] '/> Settings</li>
+        </Link>
        </ul>
       </div>
     </div>  

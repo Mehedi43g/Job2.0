@@ -4,3 +4,17 @@
 @theme {
   --font-inter: "Inter", sans-serif;
 }
+.clip-path-chart {
+  clip-path: polygon(
+    0% 70%,
+    15% 55%,
+    30% 60%,
+    45% 48%,
+    60% 35%,
+    75% 30%,
+    90% 40%,
+    100% 55%,
+    100% 100%,
+    0% 100%
+  );
+}
