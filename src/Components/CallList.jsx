@@ -263,7 +263,7 @@ const CallList = () => {
                 </div>
                 <div className="border border-[#AD46FF] cursor-pointer rounded-2xl bg-[#00c9502d] text-[#C27AFF] bg-linear-to-r from-[#ac46ff4f] to-[#f6339b81] flex justify-center">
                     <p className="px-3 py-3 font-inter text-sm flex items-center gap-3">
-                    <FaPlay />Play Audio Recording
+                        <FaPlay />Play Audio Recording
                     </p>
                 </div>
                 <div className="">
@@ -273,28 +273,28 @@ const CallList = () => {
                     </div>
                 </div>
                 <div className="pt-5">
-                <div className="  p-3 rounded-2xl bg-[#1d293d62]">
-                    <div className="">
-                    <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
-                    <p className='font-inter text-[#FFFFFF] text-[12px]'>Thank you for calling UBreakiFix! How can I help you today?</p>
+                    <div className="  p-3 rounded-2xl bg-[#1d293d62]">
+                        <div className="">
+                            <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
+                            <p className='font-inter text-[#FFFFFF] text-[12px]'>Thank you for calling UBreakiFix! How can I help you today?</p>
+                        </div>
+                        <div className="pt-3">
+                            <h4 className='font-inter text-[#51A2FF] text-[14px] '>Customer:</h4>
+                            <p className='font-inter text-[#FFFFFF] text-[12px]'>Hi, my iPhone 13 screen is cracked. How much would it cost to repair?</p>
+                        </div>
+                        <div className="pt-3">
+                            <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
+                            <p className='font-inter text-[#FFFFFF] text-[12px]'>I can help you with that! For an iPhone 13 screen repair, our price is $199. This includes parts, labor, and comes with a 90-day warranty. Would you like to book an appointment?</p>
+                        </div>
+                        <div className="pt-3">
+                            <h4 className='font-inter text-[#51A2FF] text-[14px] '>Customer:</h4>
+                            <p className='font-inter text-[#FFFFFF] text-[12px]'>Yes, please! When are you available?</p>
+                        </div>
+                        <div className="pt-3">
+                            <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
+                            <p className='font-inter text-[#FFFFFF] text-[12px]'>Great! I have availability today at 2:00 PM or tomorrow at 10:00 AM. Which works better for you?</p>
+                        </div>
                     </div>
-                    <div className="pt-3">
-                    <h4 className='font-inter text-[#51A2FF] text-[14px] '>Customer:</h4>
-                    <p className='font-inter text-[#FFFFFF] text-[12px]'>Hi, my iPhone 13 screen is cracked. How much would it cost to repair?</p>
-                    </div>
-                     <div className="pt-3">
-                    <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
-                    <p className='font-inter text-[#FFFFFF] text-[12px]'>I can help you with that! For an iPhone 13 screen repair, our price is $199. This includes parts, labor, and comes with a 90-day warranty. Would you like to book an appointment?</p>
-                    </div>
-                    <div className="pt-3">
-                    <h4 className='font-inter text-[#51A2FF] text-[14px] '>Customer:</h4>
-                    <p className='font-inter text-[#FFFFFF] text-[12px]'>Yes, please! When are you available?</p>
-                    </div>
-                     <div className="pt-3">
-                    <h4 className='font-inter text-[#05DF72] text-[14px] '>AI Assistant:</h4>
-                    <p className='font-inter text-[#FFFFFF] text-[12px]'>Great! I have availability today at 2:00 PM or tomorrow at 10:00 AM. Which works better for you?</p>
-                    </div>
-                </div>
 
                 </div>
             </div>

@@ -7,6 +7,7 @@ import { LuArrowRightLeft } from 'react-icons/lu'
 import { RiRobot2Line } from 'react-icons/ri'
 import { TiDeleteOutline } from 'react-icons/ti'
 
+
 const skills = [
   { name: "Screen Repair", percent: 70 ,  extra: "156 requests"},
   { name: "Battery Replacement", percent: 70, extra: "89 requests" },
@@ -14,7 +15,10 @@ const skills = [
   { name: "Software Issues", percent: 30, extra: "45 requests" },
 ]
 const Deshboard = () => (
-  <section className=''>
+  <>
+  
+  <section className='pt-30'>
+    
     <div className="flex gap-5">
       <div className="w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
@@ -247,6 +251,8 @@ const Deshboard = () => (
     </div>
 
   </section>
+  
+  </>
 )
 
 export default Deshboard
