@@ -28,19 +28,19 @@ const handlePprofile = () => {
          border border-white/60  hover:border-white  hover:bg-white/10  transition duration-300 backdrop-blur-sm'>Edit Profile</button>
       </div>
       <div className="pt-10">
-        <div className="flex w-4/12 gap-4 border-b border-[#192d718c] pb-1">
+        <div className="flex w-full md:w-4/12 gap-4 border-b border-[#192d718c] pb-1">
           <h3 className='text-[#FFFFFF] font-inter text-[20px] font-semibold '>Full Name:</h3>
           <p className='text-[#FFFFFF] font-inter text-[20px]'>Jane D.</p>
         </div>
-        <div className="flex pt-4 w-4/12 gap-4 border-b border-[#192d718c] pb-1">
+        <div className="flex pt-4 w-full md:w-4/12 gap-4 border-b border-[#192d718c] pb-1">
           <h3 className='text-[#FFFFFF] font-inter text-[20px] font-semibold '>Email:</h3>
           <p className='text-[#FFFFFF] font-inter text-[20px]'>jane@gmail.com</p>
         </div>
-        <div className="flex pt-4 w-4/12 gap-4 border-b border-[#192d718c] pb-1">
+        <div className="flex pt-4 w-full md:w-4/12 gap-4 border-b border-[#192d718c] pb-1">
           <h3 className='text-[#FFFFFF] font-inter text-[20px] font-semibold '>Store Name:</h3>
           <p className='text-[#FFFFFF] font-inter text-[20px]'>Ubreakfix Store</p>
         </div>
-        <div className="flex pt-4 w-4/12 gap-4 border-b border-[#192d718c] pb-1">
+        <div className="flex pt-4 w-full md:w-4/12 gap-4 border-b border-[#192d718c] pb-1">
           <h3 className='text-[#FFFFFF] font-inter text-[20px] font-semibold '>Store Address:</h3>
           <p className='text-[#FFFFFF] font-inter text-[20px]'>123 Main Street, New York, NY 10001</p>
         </div>
