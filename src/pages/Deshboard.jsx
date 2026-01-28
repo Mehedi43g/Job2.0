@@ -17,10 +17,10 @@ const skills = [
 const Deshboard = () => (
   <>
   
-  <section className='pt-30'>
+  <section className='md:pt-30 pt-10'>
     
-    <div className="flex gap-5">
-      <div className="w-4/12">
+    <div className="flex flex-col md:flex md:flex-row gap-5">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className="flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>Total Calls Today</p>
@@ -39,7 +39,7 @@ const Deshboard = () => (
         </div>
       </div>
 
-      <div className="w-4/12">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className="flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>AI-Handled Calls</p>
@@ -58,7 +58,7 @@ const Deshboard = () => (
         </div>
       </div>
 
-      <div className="w-4/12">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className=" flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>Warm Transfer</p>
@@ -79,8 +79,8 @@ const Deshboard = () => (
 
     </div>
 
-    <div className="flex gap-5 pt-4.5">
-      <div className="w-4/12">
+    <div className="flex flex-col md:flex md:flex-row gap-5 pt-4.5">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className="flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>Appointments Booked</p>
@@ -99,7 +99,7 @@ const Deshboard = () => (
         </div>
       </div>
 
-      <div className="w-4/12">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className="flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>Missed/Failed Calls</p>
@@ -118,7 +118,7 @@ const Deshboard = () => (
         </div>
       </div>
 
-      <div className="w-4/12">
+      <div className="w-full md:w-4/12">
         <div className="border border-[#2b80ffd2] p-3 rounded-2xl flex justify-between hover:scale-105 duration-300">
           <div className=" flex flex-col gap-3">
             <p className='text-[#90A1B9] text-[14px] font-inter'>Avg Call Duration</p>
@@ -185,8 +185,8 @@ const Deshboard = () => (
 
     </div>
 
-    <div className="flex pt-10 gap-5">
-      <div className="w-6/12 border p-3 rounded-2xl border-[#2b80ffab] ">
+    <div className="flex flex-col md:flex md:flex-row pt-10 gap-5">
+      <div className="md:w-6/12 border p-3 rounded-2xl border-[#2b80ffab] ">
         <h3 className='font-inter text-[20px] text-[#FFFFFF]'>Recent Activity</h3>
 
         <div className="pt-3">
@@ -226,7 +226,7 @@ const Deshboard = () => (
           </div>
         </div>
       </div>
-      <div className="w-6/12 border p-3 rounded-2xl border-[#2b80ffab]">
+      <div className="md:w-6/12  border p-3 rounded-2xl border-[#2b80ffab]">
       <div className="w-full border-[#2b80ffab]  p-5 rounded-lg space-y-6">
         <h3 className='text-[20px] font-inter text-[#FFFFFF]'>Top Repair Requests</h3>
       {skills.map((skill, index) => (
