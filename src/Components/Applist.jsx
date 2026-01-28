@@ -3,8 +3,9 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 
 const Applist = () => {
   return (
-    <div>
-       <table className="w-full text-sm text-left text-gray-300">
+    <div className=' hidden md:block'>
+      <div className="">
+         <table className="w-full  text-sm text-left text-gray-300">
         <thead className="bg-[#0b1739] text-gray-400 p-3">
             <tr className=''>
                 <th className='px-4 py-3'>Client Name </th>
@@ -91,23 +92,15 @@ const Applist = () => {
         </tbody>
 
        </table>
-       <div className="flex items-center justify-center pt-10">
-        <FaAngleLeft />
-        <div className="">
-            <ul className='flex gap-3'>
-                <li className='text-[#CFCFCF] hover:text-[#0400ff] p-2 cursor-pointer'>Prevous</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 bg-[CFCFCF] cursor-pointer'>1</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 bg-[CFCFCF] cursor-pointer'>2</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 bg-[CFCFCF] cursor-pointer'>3</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 bg-[CFCFCF] cursor-pointer'>4</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 bg-[CFCFCF] cursor-pointer'>5</li>
-                <li className='p-2 text-[#0400ff] cursor-pointer'>..</li>
-                <li className='p-2 text-[#0400ff] hover:bg-[#CFCFCF] duration-300 cursor-pointer'>11</li>
-                <li className='text-[#CFCFCF]  hover:text-[#0400ff] p-2 cursor-pointer'>Next</li>
-            </ul>
-        </div>
-        <FaAngleRight />
-       </div>
+      </div>
+       <div className="flex items-center justify-center gap-4 pt-10 text-gray-300">
+        <FaAngleLeft className="cursor-pointer hover:text-white" />
+        <span className="px-3 py-1 hover:bg-[#1f2a5a] duration-300 rounded cursor-pointer">1</span>
+        <span className="px-3 py-1 hover:bg-[#1f2a5a] duration-300 cursor-pointer">2</span>
+        <span className="px-3 py-1 hover:bg-[#1f2a5a] duration-300 cursor-pointer">3</span>
+        <FaAngleRight className="cursor-pointer hover:text-white" />
+      </div>
+
     </div>
   )
 }
