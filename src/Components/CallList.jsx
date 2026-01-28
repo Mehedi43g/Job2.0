@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPlay } from 'react-icons/fa'
 import { GrDocumentText } from 'react-icons/gr'
-import { IoMdCheckmarkCircleOutline, IoMdTime } from 'react-icons/io'
+import { IoMdCheckmarkCircleOutline, IoMdDocument, IoMdTime } from 'react-icons/io'
 import { IoCallOutline, IoCallSharp } from 'react-icons/io5'
 
 const CallList = () => {
@@ -269,7 +269,10 @@ const CallList = () => {
                 </div>
                 <div className="">
                     <div className="flex items-center gap-2 pt-10 text-[16px]">
-                        <GrDocumentText className='text-[#51A2FF]' />
+                        <div className=" relative">
+                            <IoMdDocument className='text-[#51A2FF]'/>
+                            {/* <GrDocumentText className='text-[#51A2FF] ' faltu icon time khaia disa /> */} 
+                        </div>
                         <h3 className='text-[#FFFFFF] font-inter '>Conversation Transcript</h3>
                     </div>
                 </div>
