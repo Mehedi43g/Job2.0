@@ -190,7 +190,7 @@ const Deshboard = () => (
         <h3 className='font-inter text-[20px] text-[#FFFFFF]'>Recent Activity</h3>
 
         <div className="pt-3">
-          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c]">
+          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c] hover:bg-[#202024ee] hover:scale-105 duration-300 cursor-pointer">
             <GoDotFill className='text-[#05DF72] text-[25px]' />
             <div className="">
               <p className='font-inter text-[14px] text-[#FFFFFF]'>AI booked appointment for iPhone 13 screen repair</p>
@@ -199,7 +199,7 @@ const Deshboard = () => (
           </div>
         </div>
          <div className="pt-3">
-          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c]">
+          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c] hover:bg-[#202024ee] hover:scale-105 duration-300 cursor-pointer">
             <GoDotFill className='text-[#FF8904] text-[25px]' />
             <div className="">
               <p className='font-inter text-[14px] text-[#FFFFFF]'>Warm transfer to technician - Software issue</p>
@@ -208,7 +208,7 @@ const Deshboard = () => (
           </div>
         </div>
          <div className="pt-3">
-          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c]">
+          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c] hover:bg-[#202024ee] hover:scale-105 duration-300 cursor-pointer">
             <GoDotFill className='text-[#05DF72] text-[25px]' />
             <div className="">
               <p className='font-inter text-[14px] text-[#FFFFFF]'>Quote provided for iPad battery replacement</p>
@@ -217,7 +217,7 @@ const Deshboard = () => (
           </div>
         </div>
         <div className="pt-3">
-          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c]">
+          <div className="flex  p-3 rounded-2xl bg-[#7a8ba42c] hover:bg-[#202024ee] hover:scale-105 duration-300 cursor-pointer">
             <GoDotFill className='text-[#FF6467] text-[25px]' />
             <div className="">
               <p className='font-inter text-[14px] text-[#FFFFFF]'>Call dropped after 12 seconds</p>

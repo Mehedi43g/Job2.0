@@ -16,8 +16,8 @@ const handlePprofile = () => {
   return (
     <div>
       <div className="flex gap-3">
-        <p onClick={handleProfile} className={`text-[#FFFFFF]  text-[24px] font-inter ${profile == true ? "border-b "  : "border-none "}`}>Profile</p>
-        <p onClick={handlePprofile} className={`text-[#FFFFFF] text-[24px] font-inter ${pprofile == true ? "border-b ": "border-none" }`}>Password Settings</p>
+        <p onClick={handleProfile} className={`text-[#FFFFFF]  text-[24px] font-inter cursor-pointer ${profile == true ? "border-b "  : "border-none "}`}>Profile</p>
+        <p onClick={handlePprofile} className={`text-[#FFFFFF] text-[24px] font-inter cursor-pointer ${pprofile == true ? "border-b ": "border-none" }`}>Password Settings</p>
       </div>
       {profile && 
      <div className="">
