@@ -3,8 +3,8 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 
 const Applist = () => {
   return (
-    <div className=' hidden md:block'>
-      <div className="">
+    <div className=' '>
+      <div className="hidden md:block">
          <table className="w-full  text-sm text-left text-gray-300">
         <thead className="bg-[#0b1739] text-gray-400 p-3">
             <tr className=''>
@@ -93,7 +93,149 @@ const Applist = () => {
 
        </table>
       </div>
-       <div className="flex items-center justify-center gap-4 pt-10 text-gray-300">
+      <div className="flex flex-col gap-5 md:hidden">
+        <div className=" border border-[#1f2a5a] p-3 rounded-2xl">
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Name:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Jane.D</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Phone:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>01960685765</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client mail:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>admin@gmail.com</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Device:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Apple/Iphone 13pro</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Repair Type:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Screen</p>
+           </div>
+
+         <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Date:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>02/06/2026</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Slot no:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>1</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Start Time:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>09:00</p>
+        </div>
+        </div>
+         <div className=" border border-[#1f2a5a] p-3 rounded-2xl">
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Name:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Jane.D</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Phone:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>01960685765</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client mail:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>admin@gmail.com</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Device:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Apple/Iphone 13pro</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Repair Type:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Screen</p>
+           </div>
+
+         <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Date:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>02/06/2026</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Slot no:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>1</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Start Time:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>09:00</p>
+        </div>
+        </div>
+         <div className=" border border-[#1f2a5a] p-3 rounded-2xl">
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Name:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Jane.D</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Phone:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>01960685765</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client mail:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>admin@gmail.com</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Device:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Apple/Iphone 13pro</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Repair Type:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Screen</p>
+           </div>
+
+         <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Date:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>02/06/2026</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Slot no:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>1</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Start Time:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>09:00</p>
+        </div>
+        </div>
+         <div className=" border border-[#1f2a5a] p-3 rounded-2xl">
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Name:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Jane.D</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client Phone:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>01960685765</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Client mail:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>admin@gmail.com</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Device:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Apple/Iphone 13pro</p>
+           </div>
+           <div className="flex gap-3">
+             <h3 className='text-[#FFFFFF] text-[18px]'>Repair Type:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>Screen</p>
+           </div>
+
+         <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Date:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>02/06/2026</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Slot no:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>1</p>
+        </div>
+        <div className="flex gap-3 ">
+            <h3 className='text-[#FFFFFF] text-[18px]'>Start Time:</h3>
+            <p className='text-[#51A2FF] text-[18px]'>09:00</p>
+        </div>
+        </div>
+      </div>
+       <div className="flex  items-center justify-center gap-4 pt-10 text-gray-300">
         <FaAngleLeft className="cursor-pointer hover:text-white" />
         <span className="px-3 py-1 hover:bg-[#1f2a5a] duration-300 rounded cursor-pointer">1</span>
         <span className="px-3 py-1 hover:bg-[#1f2a5a] duration-300 cursor-pointer">2</span>
