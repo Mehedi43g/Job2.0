@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router'
+import { Link, useLocation } from 'react-router'
 import timg from "../assets/Timg.png"
 import { FaRegBell } from 'react-icons/fa'
 
@@ -25,7 +25,10 @@ const TopNavber = () => {
         <span className='text-[15px] md:text-[20px] cursor-pointer hover:text-[#fbbf24]'>
           <FaRegBell />
         </span>
+        <Link to='settings'>
+        
         <img className='rounded-full cursor-pointer w-8 h-8 md:w-10 md:h-10' src={timg} alt="" />
+        </Link>
       </div>
     </div>
   )
